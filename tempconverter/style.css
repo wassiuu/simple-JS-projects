@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(88deg, #1e3c72, #c33764);
+  font-family: Arial,sans-serif;
+}
+
+.heading{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 25px;
+}
+
+.heading img{
+  width: 80px;
+  height: 80px;
+}
+
+form{
+  background-color: rgb(213, 242, 238);
+  text-align: center;
+  max-width: 400px;
+  margin:auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px; /* horizontal vertical blurpercentage */
+}
+
+#textBox{
+  width: 130px;
+  height: 30px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button{
+  font-size: medium;
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+button:hover{
+  background-color: rgb(245, 201, 136);
+}
+
+label{
+  font-size: 100%;
+  font-weight: bold;
+}
+
+#result{
+  font-size: 1.75em;
+  font-weight: bold;
+}
